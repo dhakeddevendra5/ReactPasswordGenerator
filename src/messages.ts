@@ -1,0 +1,23 @@
+export const messages = {
+appName: import.meta.env.VITE_APP_NAME || "React Password Generator",
+heading: "Password Generator",
+length: "Length",
+uppercase: "Include uppercase (A–Z)",
+lowercase: "Include lowercase (a–z)",
+numbers: "Include numbers (0–9)",
+symbols: "Include symbols",
+excludeSimilar: "Exclude similar (i, l, 1, O, 0)",
+noAmbiguous: "No ambiguous symbols ({}[]()/\\'\"`,;:.<>)",
+generate: "Generate",
+copy: "Copy",
+copied: "Copied!",
+copyFailed: "Copy failed. Press Ctrl/Cmd+C.",
+strength: "Strength",
+veryWeak: "Very Weak",
+weak: "Weak",
+medium: "Medium",
+strong: "Strong",
+setsHint: "Select at least one character set.",
+lengthHint: "Length must be at least the number of enabled sets.",
+} as const;
+export type Messages = typeof messages;
