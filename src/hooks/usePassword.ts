@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { buildPool, csprngInt, shuffle, type Options } from "../utils/charset";
 import { copyToClipboard } from '../utils/clipboard';
 import { estimateEntropyBits, mapEntropyToStrength } from '../utils/entropy';
