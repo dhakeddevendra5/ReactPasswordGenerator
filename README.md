@@ -41,6 +41,29 @@ https://github.com/dhakeddevendra5/ReactPasswordGenerator.git
 cd ReactPasswordGenerator
 ```
 
+## 📂 Project Structure
+```
+src/
+  components/
+    Controls.tsx
+    PasswordDisplay.tsx
+    StrengthMeter.tsx
+    Toast.tsx
+  hooks/
+    usePassword.ts
+    useLocalStorage.ts
+  utils/
+    charset.ts
+    entropy.ts
+    clipboard.ts
+  App.tsx
+  main.tsx
+  styles.css
+tests/
+  generator.test.ts
+.env.example
+README.md
+```
 ## Install dependencies:
 ```
 npm install
@@ -60,6 +83,8 @@ npm run build
 ```
 npm run preview
 ```
+
+
 # 🌐 Deployment
 
 This project is deployed on Vercel.
@@ -73,12 +98,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 # 📜 License
 
-This project is licensed under the MIT License – feel free to use and modify.
-
-
----
-```
-Do you also want me to add a **"Security Notes"** section (since this is a password tool) to reassure users about CSPRNG a
-```
+MIT © 2025 — Built with ❤️ using React, TypeScript, and Vite.
 
 
