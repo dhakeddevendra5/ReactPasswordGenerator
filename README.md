@@ -70,5 +70,5 @@ export default tseslint.config([
 
 # Live Link
 ```
-  https://dd-react-password-generator.vercel.app/
+  [https://dd-react-password-generator.vercel.app/]
 ```
