@@ -37,5 +37,5 @@ Easily generate secure passwords with adjustable length, character sets, and str
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+https://github.com/dhakeddevendra5/ReactPasswordGenerator.git
+cd ReactPasswordGenerator
