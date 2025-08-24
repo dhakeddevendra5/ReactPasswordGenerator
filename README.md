@@ -36,6 +36,49 @@ Easily generate secure passwords with adjustable length, character sets, and str
 
 Clone the repository:
 
-```bash
+```
 https://github.com/dhakeddevendra5/ReactPasswordGenerator.git
 cd ReactPasswordGenerator
+```
+
+## Install dependencies:
+```
+npm install
+```
+
+## Run the development server:
+```
+npm run dev
+```
+
+## Build for production:
+```
+npm run build
+```
+
+## Preview the production build:
+```
+npm run preview
+```
+# 🌐 Deployment
+
+This project is deployed on Vercel.
+Every push to main triggers an automatic deployment.
+
+
+
+# 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+# 📜 License
+
+This project is licensed under the MIT License – feel free to use and modify.
+
+
+---
+```
+Do you also want me to add a **"Security Notes"** section (since this is a password tool) to reassure users about CSPRNG a
+```
+
+
